@@ -1,0 +1,60 @@
+.workspace {
+  width: 100%;
+  height: 100%;
+  padding: 26px 26px 50px 26px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.workspace > .instrument {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+.workspace > .instrument > .instrument__info {
+  right: 13px;
+  left: auto;
+}
+
+.workspace__img {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  overflow: hidden;
+}
+
+#to_top {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+.workspace__img_type_four {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.workspace__img-container {
+  display: flex;
+  border: 1px solid #000;
+  background-color: #000; 
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.workspace__one-img {
+  background-color: #ffe8e8;
+  margin: auto;
+}
+
+.workspace__one-im-annotate {
+  background-color: #ffe8e8;
+  margin: auto;
+  cursor: none;
+}
