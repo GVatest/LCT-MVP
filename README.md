@@ -80,7 +80,7 @@ yarn dev
 
 ## _Additional_
 
-I was one of the participants of the `FutureOfMedTech` team at the `LCT 2022` hackathon, serving as a `full-stack` developer. I took on responsibilities for writing the API and implementing the database, as well as actively participating in the development of the application's frontend. I set up authentication with `JWT` tokens, implemented access to data from another account via a link, and handled the loading, initial processing, and display of `Dicom` slices. I also contributed to the development of the annotation functionality, including importing and exporting annotations in `JSON`, loading multiple images, scrolling images, and providing annotation tools. Additionally, I took on the responsibility of merging three modules of the application: the pathology generation module, the Dicom image annotator and the studies and employee management system. The final challenge was deploying and configuring the application on a remote server, using the `nginx` + `gunicorn`.
+I was the member of `FutureOfMedTech` team at the 2022 hackathon. As a `full stack` developer I took responsibility for writing the API, designing the database, and writing individual front-end modules: set up `JWT` authentication, loading, primary processing and displaying `Dicom` slides, participated in writing annotator functionality: annotation tools, import and export of annotation to `Json`, multiple image loading, image scrolling. Also took responsibility for merge of three application modules: pathology generation module, `Dicom` image annotator, studies and staff management system. The final challenge was to deploy and configure the application on a remote server, for this I used `nginx` + `gunicorn`.
 
 ## Credits
 
