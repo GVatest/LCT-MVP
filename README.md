@@ -1,6 +1,6 @@
 <h1 align="center">𝕃ℂ𝕋-𝕄𝕍ℙ</h1>
 
-> Веб-платформа для разметки медицинских изображений и генерации патологий на исследованиях здоровых пациентов. `MVP` команды `FutureOfMedTech`, разработанный в рамках хакатона `ЛЦТ 2022`.
+> Web platform for annotating medical images and generating pathologies on studies of healthy patients. `MVP` of the `FutureOfMedTech` team, developed for the `LCT 2022` hackathon.
 
 ## Screenshots
 
@@ -60,11 +60,11 @@ yarn dev
 
 ## About
 
-- API был разработан на основе `django rest framework` с использованием базы данных `sqlite3`, так как это `mvp` проекта, с `sqlite3` работать было проще и быстрее чем с ее более продвинутыми альтернативами, такими как `postgresql`.
-- Авторизация реализована на основе `JWT` токенов
-- Фронтенд реализован с использованием библиотеки `React` в связке с менеджером состояний `Redux`
-- Подгрузка и обработка `Dicom` слайсов на фронт производится с помощью библиотеки с открытым исходным кодом `[DWV](https://www.npmjs.com/package/dwv)`
-- Функционал разметчика основан на функционале библиотеки для работы с алгоритмами компьютерного зрения `[OpenCV.js](https://docs.opencv.org/4.6.0/d5/d10/tutorial_js_root.html)`
+- API was developed based on `django rest framework` using `sqlite3` database, as it is an mvp project, working with `sqlite3` was easier and faster than its more advanced alternatives such as `postgresql`.
+- Authorization is implemented based on `JWT` tokens
+- The frontend is implemented using the `React` library in conjunction with the `Redux` state manager
+- Loading and processing of `Dicom` slices on the front end is done using the open-source library `[DWV] (https://www.npmjs.com/package/dwv)`
+- The functionality of the annotator is based on the functionality of the library for working with computer vision algorithms `[OpenCV.js] (https://docs.opencv.org/4.6.0/d5/d10/tutorial_js_root.html)`
 
 ## Stack
 
@@ -80,7 +80,7 @@ yarn dev
 
 ## _Additional_
 
-Я был одним из участников команды `FutureOfMedTech` на хакатоне 2022 года, выступал в качестве `full stack` разработчика. Взял на себя обязанности по написанию `API` и проектированию базы данных, также принимал активное участие в разработке фронтенда приложения, настроил авторизацию по `JWT` токенам, реализовал доступ к данным другого аккаунта по ссылке, подгрузку, первичную обработку и отображение Dicom слайсов, участвовал в написании функционала разметчика: импорт и экспорт разметки в `json`, множественная подгрузка изображений, скролл изображений, инструментов разметки. Также взял на себя ответственность по мерджу трех модулей приложения: модуль генерации патологий, разметчик `Dicom` изображений, система менеджмента исследований и сотрудников. Финальным испытанием был деплой и настройка приложения на удаленном сервере, для этого использовал дефолтную для `django` связку `nginx` + `gunicorn`.
+I was one of the participants of the `FutureOfMedTech` team at the `LCT 2022` hackathon, serving as a `full-stack` developer. I took on responsibilities for writing the API and implementing the database, as well as actively participating in the development of the application's frontend. I set up authentication with `JWT` tokens, implemented access to data from another account via a link, and handled the loading, initial processing, and display of `Dicom` slices. I also contributed to the development of the annotation functionality, including importing and exporting annotations in `JSON`, loading multiple images, scrolling images, and providing annotation tools. Additionally, I took on the responsibility of merging three modules of the application: the pathology generation module, the Dicom image annotator and the studies and employee management system. The final challenge was deploying and configuring the application on a remote server, using the `nginx` + `gunicorn`.
 
 ## Credits
 
